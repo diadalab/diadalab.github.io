@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-right: auto;
+  margin-left: auto;
+  font-family: sans-serif;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  margin-left: 5%;
+  background: linear-gradient(lightblue,bisque);
+  width: 50%;
+  border: 1px solid darkblue;
+  border-radius: 10%
+
+}
+.content{
+  margin:12%;
+    color: darkblue;
+}
+
+.fullname{
+  display: flex;
+  flex-direction:row;
+  margin-bottom: 5%;
+
+}
+
+.firstName{
+  margin-right: 2%;
+
+}
+
+.data{
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  margin-right: 2%:
+}
+
+.date{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3%;
+}
+
+
+.dates{
+  margin-right: 3%;
+  border-radius: 10px;
+}
+
+.question{
+  color: darkred;
+  font-size: 10px;
+}
+
+.createAccount{
+  background-color: darkblue;
+  border-radius: 10px;
+  font-size: 2em;
+  color: white;
+  padding: 2%;
+  overflow: hidden;
+}
